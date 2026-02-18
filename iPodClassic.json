@@ -1,0 +1,147 @@
+{
+  "PresetList": [
+    {
+      "PresetName": "iPod classic 6G (H.264 Baseline L3.0, 640x480, AAC)",
+      "PresetDescription": "MP4 (web optimized + iPod atom), H.264 Baseline@3.0, CFR<=30, max 640x480, AAC stereo 160k/48k",
+      "Type": 1,
+      "Default": false,
+      "Folder": false,
+      "FolderOpen": false,
+      "ChildrenArray": [],
+      "PresetDisabled": false,
+
+      "FileFormat": "av_mp4",
+      "Optimize": true,
+      "Mp4iPodCompatible": true,
+      "MetadataPassthru": true,
+      "InlineParameterSets": false,
+      "ChapterMarkers": true,
+
+      "PictureUseMaximumSize": true,
+      "PictureWidth": 640,
+      "PictureHeight": 480,
+      "PictureAllowUpscaling": false,
+      "PictureKeepRatio": true,
+
+      "PicturePAR": "none",
+      "PicturePARWidth": 0,
+      "PicturePARHeight": 0,
+
+      "PictureCropMode": 2,
+      "PictureAutoCrop": false,
+      "PictureTopCrop": 0,
+      "PictureBottomCrop": 0,
+      "PictureLeftCrop": 0,
+      "PictureRightCrop": 0,
+
+      "PictureModulus": 2,
+      "PictureItuPAR": false,
+      "PictureRotate": "angle=0:hflip=0",
+
+      "PictureDeblockPreset": "off",
+      "PictureDeblockTune": "medium",
+      "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+      "PictureCombDetectPreset": "off",
+      "PictureCombDetectCustom": "",
+      "PictureDeinterlaceFilter": "off",
+      "PictureDeinterlacePreset": "default",
+      "PictureDeinterlaceCustom": "",
+      "PictureDenoiseFilter": "off",
+      "PictureDenoisePreset": "medium",
+      "PictureDenoiseTune": "none",
+      "PictureDenoiseCustom": "",
+      "PictureSharpenFilter": "off",
+      "PictureSharpenPreset": "medium",
+      "PictureSharpenTune": "none",
+      "PictureSharpenCustom": "",
+      "PictureDetelecine": "off",
+      "PictureDetelecineCustom": "",
+      "PictureChromaSmoothPreset": "off",
+      "PictureChromaSmoothTune": "none",
+      "PictureChromaSmoothCustom": "",
+      "PictureColorspacePreset": "off",
+      "PictureColorspaceCustom": "",
+      "PicturePadMode": "none",
+      "PicturePadColor": "black",
+      "PicturePadTop": 0,
+      "PicturePadBottom": 0,
+      "PicturePadLeft": 0,
+      "PicturePadRight": 0,
+
+      "UsesPictureFilters": true,
+
+      "VideoEncoder": "x264",
+      "VideoFramerate": "30",
+      "VideoFramerateMode": "cfr",
+      "VideoGrayScale": false,
+      "VideoScaler": "swscale",
+
+      "VideoQualityType": 1,
+      "VideoAvgBitrate": 2000,
+      "VideoMultiPass": true,
+      "VideoTurboMultiPass": true,
+
+      "VideoPreset": "medium",
+      "VideoTune": "",
+      "VideoProfile": "baseline",
+      "VideoLevel": "3.0",
+      "VideoOptionExtra": "",
+      "x264UseAdvancedOptions": false,
+      "x264Option": "",
+
+      "VideoColorRange": "limited",
+      "VideoColorMatrixCodeOverride": 0,
+      "VideoHWDecode": 0,
+      "VideoPasshtruHDRDynamicMetadata": "all",
+
+      "AudioAutomaticNamingBehavior": "unnamed",
+      "AudioLanguageList": ["any"],
+      "AudioTrackSelectionBehavior": "first",
+      "AudioSecondaryEncoderMode": true,
+      "AudioTrackNamePassthru": true,
+
+      "AudioCopyMask": [
+        "copy:aac",
+        "copy:ac3",
+        "copy:eac3",
+        "copy:dtshd",
+        "copy:dts",
+        "copy:mp3",
+        "copy:truehd",
+        "copy:flac"
+      ],
+      "AudioEncoderFallback": "av_aac",
+
+      "AudioList": [
+        {
+          "AudioEncoder": "av_aac",
+          "AudioMixdown": "stereo",
+          "AudioSamplerate": "48",
+          "AudioBitrate": 160,
+          "AudioCompressionLevel": -1.0,
+          "AudioDitherMethod": "auto",
+          "AudioNormalizeMixLevel": false,
+          "AudioTrackQualityEnable": false,
+          "AudioTrackQuality": -1.0,
+          "AudioTrackGainSlider": 0.0,
+          "AudioTrackDRCSlider": 0.0
+        }
+      ],
+
+      "SubtitleAddCC": false,
+      "SubtitleAddForeignAudioSearch": false,
+      "SubtitleAddForeignAudioSubtitle": false,
+      "SubtitleTrackSelectionBehavior": "none",
+      "SubtitleLanguageList": [],
+      "SubtitleBurnBehavior": "none",
+      "SubtitleBurnBDSub": false,
+      "SubtitleBurnDVDSub": false,
+      "SubtitleTrackNamePassthru": true,
+
+      "AlignAVStart": false
+    }
+  ],
+  "VersionMajor": 67,
+  "VersionMinor": 0,
+  "VersionMicro": 0
+}
